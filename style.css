@@ -1,0 +1,72 @@
+body{
+    background-image: url(FundoNetflix.png);
+    background-size: cover;
+}
+
+
+
+#Screen{
+    padding: 5px 90px;
+}
+
+#Nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+#Nav-items{
+    padding: 15px;
+}
+
+select{
+    padding: 2px 5px;
+    background-color: black;
+    color: white;
+}
+
+#Log-in{
+    margin: 0px 0px 0px 15px;
+    padding: 4px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#Logo{
+    height: 45px;
+}
+
+.texto{
+    color: white;
+    margin: 15px;
+}
+#Title-Placeholder{
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin-top: 140px;
+    font-size: 20px;
+}
+
+#InputHolder{
+    display: flex;
+    justify-content: center;
+}
+
+#LetsGO{
+    background-color: #E50914;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    margin: 0px 10px ;
+    font-weight: bold;
+}
+
+#Input1{
+    width: 400px;
+    background-color: hwb(0 0% 100%);
+    color: white;
+
+}

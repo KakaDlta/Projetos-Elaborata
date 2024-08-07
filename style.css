@@ -1,72 +1,74 @@
 body{
-    background-image: url(FundoNetflix.png);
-    background-size: cover;
-}
-
-
-
-#Screen{
-    padding: 5px 90px;
-}
-
-#Nav-bar{
-    display: flex;
-    justify-content: space-between;
-}
-
-#Nav-items{
-    padding: 15px;
-}
-
-select{
-    padding: 2px 5px;
-    background-color: black;
-    color: white;
-}
-
-#Log-in{
-    margin: 0px 0px 0px 15px;
-    padding: 4px 10px;
-    background-color: red;
-    color: white;
-    border: none;
-    font-weight: bold;
-    border-radius: 5px;
-}
-
-#Logo{
-    height: 45px;
-}
-
-.texto{
-    color: white;
-    margin: 15px;
-}
-#Title-Placeholder{
-    display: block;
-    text-align: center;
-    align-items: center;
-    margin-top: 140px;
-    font-size: 20px;
-}
-
-#InputHolder{
     display: flex;
     justify-content: center;
 }
-
-#LetsGO{
-    background-color: #E50914;
-    border: none;
+.tela{
+    display: flex;
+    justify-content: end;
+}
+label{
     color: white;
-    padding: 15px 25px;
-    margin: 0px 10px ;
-    font-weight: bold;
+    font-size: 45px;
+    margin-right: 12px;
+    margin-bottom: 2px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.celular{
+    width: 200px;
+    height: 340px;
+    background-color: #000000;
+    padding: 80px 20px 20px 20px;
+    border-radius: 40px;
 }
 
-#Input1{
-    width: 400px;
-    background-color: hwb(0 0% 100%);
-    color: white;
+button{
+    border-radius: 100px;
+    width: 45px;
+    height: 45px;
+    border: none;
+    font-size: 15px;
+    margin: 2px 0px;
+}
 
+.botoes{
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+#zero{
+    width: 95px;
+    text-align: left;
+    padding-left: 20px;
+}
+.nums{
+    background-color: #333333;
+    color: white;
+    transition: all 0.2s;
+}
+.nums:hover{
+    background-color: #474747;
+}
+.laranja {
+    background-color: orange;
+    transition: all 0.2s;
+}
+.laranja:hover{
+    background-color: rgb(212, 138, 0);
+}
+.special{
+    background-color: #A5A5A5;
+    color: black;
+    transition: all 0.2s;
+}
+.special:hover{
+    background-color: #8a8a8a
+}
+.border1{
+    display: flex;
+    justify-content: center;
+}
+.border2{
+    margin-top: 26px;
+    border-bottom: 3px solid white;
+    width: 70px;
 }

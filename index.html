@@ -3,36 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix Site</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="Screen">
-        <div id="Nav-bar">
-            <div>
-                <img src="LogoNetflix.png" alt="" id="Logo">
-            </div>
-            <nav id="Nav-items">
-                <select>
-                    <option class="opcao">Português</option>
-                    <option class="opcao">English</option>
-                </select>
-                <button id="Log-in">Entrar</button>
-            </nav>
+    <div class="celular">
+        <div class="tela">
+            <label for="" id="Display">0</label>
         </div>
-        <div>
-            <div id="Title-Placeholder">
-                <h1 class="texto">Filmes, séries e muito mais, sem limites</h1>
-                <h3 class="texto">Assista onde quiser. Cancele quando quiser</h3>
-                <h4 class="texto">Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</h4>
-            </div>
-            <div id="InputHolder">
-                <input type="text" id="Input1">
-                <button id="LetsGO">Vamos Lá</button>
-            </div>
+        <div class="botoes">
+            <button class="special" onclick="DeletarDisplay()">AC</button>
+            <button class="special" >±</button>
+            <button class="special">%</button>
+            <button class="laranja" onclick="AdicionarDisplay('/')">/</button>
+            <button class="nums" onclick="AdicionarDisplay('7')">7</button>
+            <button class="nums" onclick="AdicionarDisplay('8')">8</button>
+            <button class="nums" onclick="AdicionarDisplay('9')">9</button>
+            <button class="laranja" onclick="AdicionarDisplay('*')">x</button>
+            <button class="nums" onclick="AdicionarDisplay('4')">4</button>
+            <button class="nums" onclick="AdicionarDisplay('5')">5</button>
+            <button class="nums" onclick="AdicionarDisplay('6')">6</button>
+            <button class="laranja" onclick="AdicionarDisplay('-')">-</button>
+            <button class="nums" onclick="AdicionarDisplay('1')">1</button>
+            <button class="nums" onclick="AdicionarDisplay('2')">2</button>
+            <button class="nums" onclick="AdicionarDisplay('3')">3</button>
+            <button class="laranja" onclick="AdicionarDisplay('+')">+</button>
+            <button id="zero" class="nums" onclick="AdicionarDisplay('0')">0</button>
+            <button class="nums" onclick="AdicionarDisplay(',')">,</button>
+            <button class="laranja" onclick="Somar()">=</button>
         </div>
-    </div>
+        <div class="border1">
+            <div class="border2">
 
-    
+            </div>
+        </div>
+        
+    </div>
+    <p>ASS: Kauê :&#41;</p>
+
+
+    <script src="app.js"></script>
 </body>
 </html>
